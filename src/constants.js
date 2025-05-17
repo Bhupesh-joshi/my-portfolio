@@ -26,6 +26,7 @@ import icfaiLogo from './assets/education_logo/icfai_logo.png';
 import dbitLogo from './assets/education_logo/dbit.jpeg';
 
 // Project Section Logo's
+import caseChroniclesLogo from './assets/work_logo/caseCroniclesLogo.png'
 import shopsyLogo from './assets/work_logo/shopsy.png'
 import gymWebsiteLogo from './assets/work_logo/gymWebsite.png';
 import newPortfolioLogo from './assets/work_logo/newPortfolio.png';
@@ -139,6 +140,16 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        title: "Case Chronicles website",
+        description:
+            "CaseChronicles is a modern web application designed to showcase a collection of legal case studies in a clean and organized format. The platform is built using ReactJS and Tailwind CSS and features smooth navigation, animated transitions using AOS (Animate On Scroll), and a responsive layout. It helps users explore different legal case categories with a professional UI, making it ideal for law students and researchers.",
+        image: caseChroniclesLogo,
+        tags: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS", "AOS (Animate On Scroll) Library", "Git", "GitHub"],
+        github: "https://github.com/Bhupesh-joshi/CaseChronicles-app",
+        webapp: "https://bhupesh-joshi.github.io/CaseChronicles-app/",
+    },
+    {
+        id: 1,
         title: "Shopsy E-commerce App",
         description:
             "Shopsy is a fully responsive modern e-commerce web application built with React.js and Tailwind CSS. It features a clean UI, animated scroll effects using AOS library, and supports Dark Mode for a better user experience. Users can browse product categories, view deals, and enjoy smooth navigation across all devices. The project is deployed using Netlify.",
@@ -148,7 +159,7 @@ export const projects = [
         webapp: "https://shopsy-e-commerce-app.netlify.app/",
     },
     {
-        id: 1,
+        id: 2,
         title: "Gym Website",
         description:
             "Developed a fully responsive and user-friendly gym website to provide an engaging experience for fitness enthusiasts. Interactive Navigation Bar – Smooth & dynamic navigation with an active state indicator. Modern UI/UX Design – Clean and visually appealing layout with a dark theme. Font Awesome Icons – Enhanced visual elements for social media & search.",
@@ -158,7 +169,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/gym-website/index.html",
     },
     {
-        id: 2,
+        id: 3,
         title: "my-Portfolio",
         description:
             "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
@@ -168,7 +179,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/my-portfolio/",
     },
     {
-        id: 3,
+        id: 4,
         title: "E-Commerce Website",
         description:
             "I have worked with some pages such as, News Page, Product description page, Checkout p-1, Checkout p-2, Checkout p-2 -1, Discount, Wish list, My Profile, order Placed, Contact us, FAQ’s, Order returned, Saved Address, Order Cancellation Page, added all the pages in the single Application, every page is Responsive for every device.",
@@ -178,7 +189,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/ECommerceWebsite/",
     },
     {
-        id: 4,
+        id: 5,
         title: "Ux-ProdX Website",
         description:
             "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
@@ -188,7 +199,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/UXProdXwebsite/",
     },
     {
-        id: 5,
+        id: 6,
         title: "RazorPay Landing Page",
         description:
             "Developed a fully responsive and visually appealing Razorpay landing page clone using HTML, CSS, and Tailwind CSS. Recreated key UI elements like the navbar, hero section, features, and testimonial sections with pixel-perfect design. Focused on performance optimization and mobile-first responsiveness to ensure a seamless user experience across all devices.",
@@ -198,7 +209,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/Razorpay-clone/",
     },
     {
-        id: 6,
+        id: 7,
         title: "old-Portfolio",
         description:
             "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
@@ -208,7 +219,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/portfolio",
     },
     {
-        id: 7,
+        id: 8,
         title: "GDP Collage Website",
         description:
             "Built a clean, responsive college website for GPD College using HTML, CSS, and JavaScript. The site includes structured sections like home, about, courses, and contact, offering intuitive navigation. This project highlights the ability to convert static content into a functional and user-friendly interface for educational institutions.",
@@ -218,7 +229,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/GPDCollegeWebsite/",
     },
     {
-        id: 8,
+        id: 9,
         title: "React Basic Website",
         description:
             "Created a responsive portfolio to display multiple web development projects using HTML, CSS, and JavaScript. Designed a clean layout with intuitive navigation and project previews. Demonstrates strong front-end skills and a keen sense of presentation.",
@@ -228,7 +239,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/Projects/",
     },
     {
-        id: 9,
+        id: 10,
         title: "Modern Chair Project",
         description:
             "Built a sleek, modern product landing page for a designer chair using HTML, CSS, and JavaScript. Focused on clean UI, smooth layout, and responsive design for all screen sizes. Highlights product presentation and front-end styling skills.",
@@ -238,7 +249,7 @@ export const projects = [
         webapp: "https://bhupesh-joshi.github.io/modern-chair-project/",
     },
     {
-        id: 10,
+        id: 11,
         title: "Image Gallery",
         description:
             "Built a sleek, modern product landing page for a designer chair using HTML, CSS, and JavaScript. Focused on clean UI, smooth layout, and responsive design for all screen sizes. Highlights product presentation and front-end styling skills.",
