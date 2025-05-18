@@ -2,7 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
 import Tilt from 'react-parallax-tilt'
 import ProfileImage from '../../assets/WhatsApp Image 2025-05-08 at 4.03.07 PM.jpeg'
-import Resume from '../../assets/Bhupesh_Joshi_MCA.pdf'
+import Resume from '../../assets/Bhupesh_Joshi_MCA-.pdf'
 
 const about = () => {
     return (
