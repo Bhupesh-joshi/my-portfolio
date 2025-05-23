@@ -10,19 +10,21 @@ const Skills = () => {
     >
       {/* section title */}
       <div className='text-center mb-8'>
-        <h2 className='text-3xl sm:text-4xl font-bold text-white'>SKILLS</h2>
-        <div className='w-24 h-1 bg-[8245ec] mx-auto mt-2'></div>
-        <p className='text-gray-400 mt-4 text-lg font-semibold'>A collection of my technical skills and experties honed through various projects and experiences</p>
+        <h2 data-aos= "fade-up" className='text-3xl sm:text-4xl font-bold text-white'>SKILLS</h2>
+        <div data-aos= "fade-up" className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <p data-aos= "fade-up" className='text-gray-400 mt-4 text-lg font-semibold'>A collection of my technical skills and experties honed through various projects and experiences</p>
       </div>
 
       {/* skills categories */}
-      <div className='flex flex-wrap gap-1 lg:gap-5 py-10 justify-between'>
+      <div data-aos= "fade-up" className='flex flex-wrap gap-1 lg:gap-5 py-10 justify-between'>
         {SkillsInfo.map((category) => (
           <div
+            data-aos= "fade-up"
+            data-aos-delay= {category.aosDelay}
             key={category.title}
             className='bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]'
           >
-            <h3 className='text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center'>
+            <h3 data-aos= "fade-up" data-aos-delay= {category.aosDelay} className='text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center'>
               {category.title}
             </h3>
 
@@ -38,6 +40,7 @@ const Skills = () => {
               <div className='grid grid-cols-2 sm:grid-cols-3 gap-3 w-full'>
                 {category.skills.map((skill) => (
                   <div
+                    data-aos= 'fade-up'
                     key={skill.name}
                     className='flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center'
                   >

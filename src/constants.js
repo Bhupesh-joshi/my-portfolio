@@ -42,6 +42,7 @@ import imageGalleryLogo from './assets/work_logo/imageGallery.png';
 export const SkillsInfo = [
     {
         title: 'Frontend',
+        aosDelay: "0",
         skills: [
             { name: 'HTML', logo: htmlLogo },
             { name: 'CSS', logo: cssLogo },
@@ -53,6 +54,7 @@ export const SkillsInfo = [
     },
     {
         title: 'Backend',
+        aosDelay: "200",
         skills: [
             { name: 'Node JS', logo: nodejsLogo },
             { name: 'Express JS', logo: expressjsLogo },
@@ -62,6 +64,7 @@ export const SkillsInfo = [
     },
     {
         title: 'Languages',
+        aosDelay: "400",
         skills: [
             { name: 'C', logo: cLogo },
             { name: 'C++', logo: cppLogo },
@@ -70,6 +73,7 @@ export const SkillsInfo = [
     },
     {
         title: 'Tools',
+        aosDelay: "600",
         skills: [
             { name: 'Git', logo: gitLogo },
             { name: 'GitHub', logo: githubLogo },
@@ -140,6 +144,7 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        aosDelay: "0",
         title: "Case Chronicles website",
         description:
             "CaseChronicles is a modern web application designed to showcase a collection of legal case studies in a clean and organized format. The platform is built using ReactJS and Tailwind CSS and features smooth navigation, animated transitions using AOS (Animate On Scroll), and a responsive layout. It helps users explore different legal case categories with a professional UI, making it ideal for law students and researchers.",
@@ -150,6 +155,7 @@ export const projects = [
     },
     {
         id: 1,
+        aosDelay: "300",
         title: "Shopsy E-commerce App",
         description:
             "Shopsy is a fully responsive modern e-commerce web application built with React.js and Tailwind CSS. It features a clean UI, animated scroll effects using AOS library, and supports Dark Mode for a better user experience. Users can browse product categories, view deals, and enjoy smooth navigation across all devices. The project is deployed using Netlify.",
@@ -160,9 +166,10 @@ export const projects = [
     },
     {
         id: 2,
+        aosDelay: "600",
         title: "Gym Website",
         description:
-            "Developed a fully responsive and user-friendly gym website to provide an engaging experience for fitness enthusiasts. Interactive Navigation Bar – Smooth & dynamic navigation with an active state indicator. Modern UI/UX Design – Clean and visually appealing layout with a dark theme. Font Awesome Icons – Enhanced visual elements for social media & search.",
+        "Developed a fully responsive and user-friendly gym website to provide an engaging experience for fitness enthusiasts. Interactive Navigation Bar – Smooth & dynamic navigation with an active state indicator. Modern UI/UX Design – Clean and visually appealing layout with a dark theme. Font Awesome Icons – Enhanced visual elements for social media & search.",
         image: gymWebsiteLogo,
         tags: ["HTML", "CSS", "JavaScript", "git", "gitHub"],
         github: "https://github.com/Bhupesh-joshi/gym-website",
@@ -170,9 +177,10 @@ export const projects = [
     },
     {
         id: 3,
+        aosDelay: "0",
         title: "my-Portfolio",
         description:
-            "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "Developed a personal portfolio website using HTML, CSS, JavaScript, and React to showcase my skills and projects. Integrated Font Awesome icons and smooth scrolling for enhanced user experience. Highlighted my technical expertise, project work, and career journey in a clean, responsive design. Deployed the website using GitHub Pages for easy access and sharing.",
         image: newPortfolioLogo,
         tags: ["HTML5", "CSS3", "JavaScript", "React JS", "Tailwind CSS", "Git", "GitHub", "Smooth Scroll", "Basic Animation Effects"],
         github: "https://github.com/Bhupesh-joshi/my-portfolio",
@@ -180,9 +188,10 @@ export const projects = [
     },
     {
         id: 4,
+        aosDelay: "300",
         title: "E-Commerce Website",
         description:
-            "I have worked with some pages such as, News Page, Product description page, Checkout p-1, Checkout p-2, Checkout p-2 -1, Discount, Wish list, My Profile, order Placed, Contact us, FAQ’s, Order returned, Saved Address, Order Cancellation Page, added all the pages in the single Application, every page is Responsive for every device.",
+        "I have worked with some pages such as, News Page, Product description page, Checkout p-1, Checkout p-2, Checkout p-2 -1, Discount, Wish list, My Profile, order Placed, Contact us, FAQ’s, Order returned, Saved Address, Order Cancellation Page, added all the pages in the single Application, every page is Responsive for every device.",
         image: eCommerceLogo,
         tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "GIT", "GITHUB", "Bit Bucket"],
         github: "https://github.com/Bhupesh-joshi/ECommerceWebsite",
@@ -190,6 +199,7 @@ export const projects = [
     },
     {
         id: 5,
+        aosDelay: "600",
         title: "Ux-ProdX Website",
         description:
             "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
@@ -200,6 +210,7 @@ export const projects = [
     },
     {
         id: 6,
+        aosDelay: "0",
         title: "RazorPay Landing Page",
         description:
             "Developed a fully responsive and visually appealing Razorpay landing page clone using HTML, CSS, and Tailwind CSS. Recreated key UI elements like the navbar, hero section, features, and testimonial sections with pixel-perfect design. Focused on performance optimization and mobile-first responsiveness to ensure a seamless user experience across all devices.",
@@ -210,6 +221,7 @@ export const projects = [
     },
     {
         id: 7,
+        aosDelay: "300",
         title: "old-Portfolio",
         description:
             "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
@@ -220,6 +232,7 @@ export const projects = [
     },
     {
         id: 8,
+        aosDelay: "600",
         title: "GDP Collage Website",
         description:
             "Built a clean, responsive college website for GPD College using HTML, CSS, and JavaScript. The site includes structured sections like home, about, courses, and contact, offering intuitive navigation. This project highlights the ability to convert static content into a functional and user-friendly interface for educational institutions.",
@@ -230,6 +243,7 @@ export const projects = [
     },
     {
         id: 9,
+        aosDelay: "0",
         title: "React Basic Website",
         description:
             "Created a responsive portfolio to display multiple web development projects using HTML, CSS, and JavaScript. Designed a clean layout with intuitive navigation and project previews. Demonstrates strong front-end skills and a keen sense of presentation.",
@@ -240,6 +254,7 @@ export const projects = [
     },
     {
         id: 10,
+        aosDelay: "300",
         title: "Modern Chair Project",
         description:
             "Built a sleek, modern product landing page for a designer chair using HTML, CSS, and JavaScript. Focused on clean UI, smooth layout, and responsive design for all screen sizes. Highlights product presentation and front-end styling skills.",
@@ -250,6 +265,7 @@ export const projects = [
     },
     {
         id: 11,
+        aosDelay: "600",
         title: "Image Gallery",
         description:
             "Built a sleek, modern product landing page for a designer chair using HTML, CSS, and JavaScript. Focused on clean UI, smooth layout, and responsive design for all screen sizes. Highlights product presentation and front-end styling skills.",

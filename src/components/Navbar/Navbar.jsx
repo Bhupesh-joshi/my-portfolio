@@ -37,7 +37,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav
+        <nav data-aos= "zoom-in"
             className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[13vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
                 }`}
         >

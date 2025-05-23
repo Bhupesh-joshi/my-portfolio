@@ -15,15 +15,27 @@ const about = () => {
                 <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
                     {/* Greetings */}
                     <div className=''>
-                        <h1 className='text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight'>
+                        <h1 
+                        data-aos="zoom-out"
+                        data-aos-duration="500"
+                        data-aos-once="true"
+                        className='text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight'>
                             Hi, I am
                         </h1>
                         {/* name */}
-                        <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight'>
+                        <h2 
+                            data-aos="zoom-out"
+                            data-aos-duration="500"
+                            data-aos-delay="100"
+                            className='text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight'>
                             Bhuepsh Joshi
                         </h2>
                         {/* skills heading with typing effect */}
-                        <h3 className='text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight'>
+                        <h3 
+                            data-aos="zoom-out"
+                            data-aos-duration="500"
+                            data-aos-delay="100"
+                            className='text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight'>
                             <span className='text-white'>
                                 I am a
                             </span>
@@ -39,8 +51,14 @@ const about = () => {
                             />
 
                         </h3>
+                        <div>
+
                         {/* About me Para */}
-                        <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+                        <p 
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            data-aos-delay="100"
+                            className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
                             I am a Front-End developer expertise is to create
                             building scalable web applications. Skilled in both front-end and
                             back-end development, I specialize in the Front-End and other
@@ -50,6 +68,9 @@ const about = () => {
 
                         {/* Resume button */}
                         <a
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            data-aos-delay="300"
                             href={Resume} 
                             download
                             target='_blank'
@@ -62,12 +83,15 @@ const about = () => {
                         >
                             Download CV
                         </a>
+                        </div>
                     </div>
 
 
                 </div>
                     {/* Right side  */}
-                    <div className='md:w-1/2 flex justify-center md:justify-end'>
+                    <div
+                        data-aos= 'zoom-in'
+                        className='md:w-1/2 flex justify-center md:justify-end'>
                         <Tilt
                             className='w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full'
                             tiltMaxAngleX={20}
@@ -78,8 +102,9 @@ const about = () => {
                             gyroscope={true}
                         >
                         <img 
+                            
                             src={ProfileImage}
-                            alt="" 
+                            alt="profile" 
                             className='w-ful h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
                         />
                         </Tilt>
