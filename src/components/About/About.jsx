@@ -28,7 +28,7 @@ const about = () => {
                             data-aos-duration="500"
                             data-aos-delay="100"
                             className='text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight'>
-                            Bhuepsh Joshi
+                            Bhupesh Joshi
                         </h2>
                         {/* skills heading with typing effect */}
                         <h3 
